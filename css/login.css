@@ -47,6 +47,7 @@ position: absolute;
 	border-bottom: 1px solid #fff;
 }
 
+
 #password{
 	padding: 10px;
 	margin-bottom: -10px;
@@ -57,6 +58,7 @@ position: absolute;
 	color: #fff;
 	border-bottom: 1px solid #fff;
 }
+
 .forgot{
 	margin-top: -20px;
 	font-size: 15px;
