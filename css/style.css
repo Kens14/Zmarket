@@ -1,0 +1,184 @@
+*{
+	max-width: 1908px;
+max-height: 1080px;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+	font-family: 'Dosis', sans-serif;
+text-decoration: none;
+
+scroll-behavior: smooth;
+}
+.container{
+	width: 1920px;
+	height: auto;
+	background-color: #000;
+}
+
+.logo a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 40px;
+	padding: 10px;
+}
+.main{
+	o
+    width: 1910px;
+	height: auto;
+ 
+    }
+
+nav{
+	overflow: hidden;
+	max-width: 1910px;
+	height:  70px;
+	background-color: #000;
+}
+
+ nav ul{
+	margin: none;
+   background-color: #000;
+	float: right;
+	margin-top: -30px;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+  
+	padding: 20px 30px;
+	font-size: 13px;
+	letter-spacing: 0.5px;
+	transition: 0s ease;
+}
+ nav ul li a:hover{
+   padding-bottom: 15px;
+	cursor: pointer;
+	border-bottom: 3px solid #fff;
+	text-decoration: none;
+    color: #fff;
+        
+}
+
+
+.slider .d-block{
+	width: 1920px;
+	max-height: 950px;
+	position: relative;
+	margin-top: -10px;
+	margin-bottom: -30px;
+}
+
+.carousel-caption h5{
+	font-size: 50px;
+}
+
+.join{
+	margin-top: 0px;
+	height: 980px;
+background-color: #000;
+
+}
+ .container2{
+ 	display: flex;
+ 	margin-left: 660px;
+ 	position: relative;
+    top: 200px;
+ 	background-color: #fff;
+ 	width: 600px;
+ 	height: 600px;
+ 	filter: drop-shadow(0.2rem 0.2rem 1.05rem #F50052);
+ }
+ .mac10{
+ 	z-index: 10;
+ 	position: absolute;
+ 	border-radius: 50%;
+ 	margin-left: 420px;
+ 	margin-top: 260px;
+ 	border: 5px solid #fff;
+ 	 filter: drop-shadow(-0.2rem 0rem  0.75rem #F50052);
+ 	}
+
+ .container2 h2{
+ 	margin-top: 20px;
+ 	margin-left: 250px;
+ 	font-size: 40px;
+ 	font-weight: 900;
+ }
+ .discord{
+ 	height: 45px;
+ 	padding: 10px 25px;
+	margin-left: 441px;
+	background-color: #000;
+	color: #fff;
+   filter: drop-shadow(0.25rem 0.25rem 0.16rem #888888);
+	margin-top: 200px;
+	position: absolute;
+ }
+ .discord:hover{
+ 	background-color: #fff;
+	color: #000;
+	text-decoration: none;
+	border: 1px solid #000;
+ }
+ .disclogo{
+ 	position: relative;
+ 	width: 70px;
+ 	height: 70px;
+ 	margin-top: 185px;
+ 	margin-left: -40px;
+ 	filter: drop-shadow(0 0  0.75rem #F50052);
+ }
+ .ig{
+ 	position: absolute;
+ 	height: 45px;
+ 	padding: 10px 18px;
+	margin-left: 441px;
+	background-color: #000;
+	color: #fff;
+	filter: drop-shadow(0.25rem 0.25rem 0.16rem #888888);
+	margin-top: 300px;
+
+ }
+ .ig:hover{
+ 	background-color: #fff;
+	color: #000;
+	text-decoration: none;
+	border: 1px solid #000;
+ }
+ .iglogo{
+ 	position: relative;
+ 	width: 70px;
+ 	height: 70px;
+ 	margin-top: 290px;
+ 	margin-left: -70px;
+	filter: drop-shadow(0 0  0.75rem #F50052);
+ }
+ .twt{
+ 	position: absolute;
+ 	height: 45px;
+ 	padding: 10px 28px;
+	margin-left: 441px;
+	background-color: #000;
+	color: #fff;
+	filter: drop-shadow(0.25rem 0.25rem 0.16rem #888888);
+	margin-top: 400px;
+ }
+ .twt:hover{
+ 	background-color: #fff;
+	color: #000;
+	text-decoration: none;
+	border: 1px solid #000;
+ }
+ .twtlogo{
+ 	position: absolute;
+ 	width: 70px;
+ 	height: 70px;
+ 	margin-top: 390px;
+ 	margin-left: 325px;
+ 		filter: drop-shadow(0 0  0.75rem #F50052);
+ }

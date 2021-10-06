@@ -1,0 +1,107 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+	font-family: 'Dosis', sans-serif;
+
+text-decoration: none;
+
+}
+.back{
+	margin-top: 10px;
+	margin-left: 15px;
+	width: 15px;
+	height: 205x;
+	filter: drop-shadow(0.13rem 0.13rem  0.1rem #888888);
+}
+.container{
+	margin-top: 200px;
+	width: 400px;
+	height: 500px;
+	background-color: #000;
+    filter: drop-shadow(1rem 1rem  0.3rem #888888);
+}
+
+.signin{
+	font-size: 18px;
+    position: absolute;
+	margin-top: 150px;
+	margin-left: 60px;
+}
+.signin h1{
+	font-size: 38px;
+position: absolute;
+	margin-top: -80px;
+	margin-left: 60px;
+	color: #fff;
+	
+}
+
+#email{
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	outline: none;
+	width: 250px;
+	background-color: #000;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+#password{
+	padding: 10px;
+	margin-bottom: -10px;
+	border: none;
+	outline: none;
+	width: 250px;
+	background-color: #000;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.forgot{
+	margin-top: -20px;
+	font-size: 15px;
+    text-decoration: none;
+	margin-left: -15px;
+	color: #fff;
+    padding: 20px;
+    position: absolute;
+}
+.forgot:hover{
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+}
+.btn{
+	
+	padding: 10px 25px;
+	margin-left: 75px;
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #fff;
+	margin-top: 60px;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+	transition: 0.4s ease;
+	filter: drop-shadow(0.12rem 0.12rem  0.75rem #888888);
+}
+
+.newu{
+	margin-top: 30px;
+	font-size: 15px;
+    text-decoration: none;
+	margin-left: 50px;
+	color: #fff;
+    padding: 20px;
+   
+}
+.newu a{
+	color: #fff;
+}
+.newu a:hover{
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+}

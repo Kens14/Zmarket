@@ -1,0 +1,60 @@
+.buy{
+    width: 100%;
+	padding: 72px 0px 72px 0px;
+	background-color: #fff; 
+    background-size: cover;
+   
+}
+
+.buy .col1{
+	margin-top: 60px;
+    width: 25%; 
+    float: left;
+    padding: 0 55px;
+ }
+
+.buy .col1 img{
+	max-width: 100%;
+	display: block;
+	margin: 0 auto; 
+}
+.buy .col1 .textbox{
+	padding: 12%;
+	background-color: #f3f3f3;
+	width: 100%;
+	text-align: center; 
+}
+.buy .col1 .textbox h4{
+	margin-bottom: 9px;
+	text-transform: uppercase;
+	font-size: 1.1rem;
+	line-height: 15px;
+	letter-spacing: 1px;
+}
+.buy .col1 .textbox p{
+	color: #727272;
+	line-height: 23px;
+	text-align: center;
+	margin: 0 0 10px;
+font-size: 14px;
+}
+.buy .col1 .textbox:hover{
+	background-color: #000;
+	color: #fff;
+}
+.more-btn{
+	
+	padding: 5px 20px;
+	width: 200px;
+	height: 60px;
+	color: #f3f3f3;
+	background: #000;
+	border: 1px solid #000;
+	margin-top: 10px;
+}
+.more-btn:hover{
+    border: 1px solid #fff;
+	color: #fff;
+	transition: 0.5s ease;
+	text-decoration: none;
+}
