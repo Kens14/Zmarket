@@ -5,6 +5,22 @@
     background-size: cover;
    
 }
+.search input{
+	
+   margin-left: 40%;
+	padding: 10px;
+	width: 20%;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #000;
+}
+.searchbtn{
+	border: none;
+	padding: 10px;
+	color: #fff;
+	background-color: #000;
+	border-bottom: 1px solid #000;
+}
 
 .buy .col1{
 	margin-top: 60px;
