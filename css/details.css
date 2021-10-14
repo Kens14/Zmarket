@@ -1,0 +1,76 @@
+*{
+	font-family: 'Dosis', sans-serif;
+	color: #fff;
+}
+.modal{
+	margin-left: -10%;
+}
+.container9{
+	
+
+	 padding: 20px;
+	 padding-bottom: 50px;
+    width: 1000px;
+    margin-top: 150px;
+    background-color: #fff;
+}
+
+
+#one{
+	margin-left: 0px;
+	width: 400px;
+margin-top: 20px;
+height: 250px;
+}
+#two{
+	width: 400px;
+	height: 250px;
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 20px;
+}
+#wear{
+	margin-top: -10px;
+	margin-left: -10px;
+}
+#price{
+ margin-left: 70px;
+}
+#delivery{
+margin-left: 90px;
+}
+#fl{
+margin-left: 80px;
+}
+#nt{
+margin-left: 70px;
+}
+.text h1{
+	font-size: 40px;
+	color: #000;
+	margin-left: 200px;
+	margin-top: -258px;
+}
+.text p{
+   font-size: 20px;
+	color: #000;
+		
+}
+.text label{
+font-size: 30px;
+	color: #000;
+
+
+}
+.offer{
+border: 1px solid #fff;
+  color: inherit;
+  padding: 14px 20px;
+  margin: 8px 0;
+  margin-left: 600px;
+  margin-top: 40px;
+  cursor: pointer;
+  width: 15%;
+  background-color: #000;
+}
+*/

@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
 <link rel="stylesheet"  href="css/buy.css">
 <link rel="stylesheet"  href="css/style.css">
+<link rel="stylesheet"  href="css/details.css">
 	<meta charset="utf-8">
 	<title>Zmarket</title>
 </head>
@@ -35,17 +38,44 @@
       </form> 
       </div>
       
-          <section class="buy">
+    <section class="buy">
         
 
        
      <div class="col1">
-       <img src="img/ak47fi.png">
+       <a href="details.html"><img src="img/ak47fi.png"></a>
        <div class="textbox">
        <h4>Ak47 | Fuel Injector</h4>
        <p>Minimal Wear</p>
        <p>₹7,799</p>
-       <a href="cc.html" class="more-btn">details</a>
+       
+        <button type="button" class="btn " data-toggle="modal" data-target=".bd-example-modal-lg">details</button>
+
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+             <div class="modal-dialog" role="document">
+            <div class="container9">
+            
+                <img id="one"src="img/fi1.png">
+                <img id="two" src="img/fi2.png">    
+    
+            <div class="text">
+                <h1>Ak47 | Fuel Injector</h1>
+                   <p id="wear">Minimal Wear</p>
+                   <label style="margin-left: 90px;">Price</label>
+                   <p id="price">₹7,799</p>
+                   <label style="margin-left: 180px;">Delivery time</label><br>
+                   <p id="delivery"> 0-6 hours</p>
+                   <label style="margin-left: 90px;">Float</label>
+                   <p id="fl">0.09825</p>
+                   <label style="margin-left: 150px;">Name Tag</label><br>
+                   <p id="nt">None</p>
+            </div>
+            <button class="offer">Make an offer
+            </button>
+           </div>
+            </div>
+          </div>
+        </div>
        </div>
        </div>
      
@@ -55,7 +85,7 @@
        <h4>Mac-10 | Stalker</h4>
        <p>Field-Tested</p>
        <p>₹2,400</p>
-       <a href="cc.html" class="more-btn">details</a>
+       <a href="" class="btn">details</a>
        </div>
        </div>
       
@@ -65,7 +95,7 @@
        <h4>Ak47 | Neon Riderr</h4>
        <p>Factory New</p>
        <p>₹25,799</p>
-       <a href="cc.html" class="more-btn">details</a>
+       <a href="" class="btn">details</a>
        </div>
        </div>
       
@@ -75,7 +105,7 @@
        <h4>★ Butterfly Knife | Slaughter</h4>
        <p>Field-Tested</p>
        <p>₹56,500</p>
-       <a href="cc.html" class="more-btn">details</a>
+       <a href="" class="btn">details</a>
        </div>
        </div>
     
@@ -85,9 +115,39 @@
        <h4>★ Sport Gloves | Vice</h4>
        <p>Field-Tested</p>
        <p>₹70,000</p>
-       <a href="cc.html" class="more-btn">details</a>
+       <button type="button" class="btn " data-toggle="modal" data-target=".bd-example-modal-lg">details</button>
+
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+             <div class="modal-dialog" role="document">
+            <div class="container9">
+            
+                <img id="one"src="img/fi1.png">
+                <img id="two" src="img/fi2.png">    
+    
+            <div class="text">
+                <h1>Ak47 | Fuel Injector</h1>
+                   <p id="wear">Minimal Wear</p>
+                   <label style="margin-left: 90px;">Price</label>
+                   <p id="price">₹7,799</p>
+                   <label style="margin-left: 180px;">Delivery time</label><br>
+                   <p id="delivery"> 0-6 hours</p>
+                   <label style="margin-left: 90px;">Float</label>
+                   <p id="fl">0.09825</p>
+                   <label style="margin-left: 150px;">Name Tag</label><br>
+                   <p id="nt">None</p>
+            </div>
+            <button class="offer">Make an offer
+            </button>
+           </div>
+            </div>
+          </div>
+        </div>
        </div>
        </div>
     </section>
   </body>
   </html>
+  <script type="javascript">
+    
+  
+  </script>
